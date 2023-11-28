@@ -57,14 +57,76 @@ alert ('o preço total é R$' +soma);
   -média de 5.0 e 6.9 RECUPERAÇÃO 
   -Média entre 7.0 ou superior APROVADO.*/
   
-  let n1 = prompt("Informe a primeira nota");
+  /*let n1 = prompt("Informe a primeira nota");
   let n2 = prompt("informe a segunda nota ");
-  let media;
+  let media;*/
+   
 
- if(media<=4.9) {
-        alert ("reprovado")
-}else if(media >=5 && media <=6.9){
-        alert("recuperação");
-}else {
-        alert("aprovado");
+ /* let nome = prompt("Digite o nome do funcionario");
+  let sal. = prompt ("Digite o salario ");
+  let tem = prompt ("Digite há quantos anos o funcionário trabalha na empresa");
+
+  if(temp <= 3){  
+          conv = Number(sal) *0.03;
+
+  if(temp >= 4 && temp <= 10){
+          conv =Number(sal) * 0.125;
+  }
+else{
+        conv = Number(sal) * 0.2;
 }
+ salf = Number(sal) + Number (sal);
+
+   alert(nome + "seu salário teve um aumento de" = "R$ + e seu salário e de" + "R$");
+
+   }*/
+  
+
+ 
+  /* let = largura = prompt("Digite o valor da largura do terreno");
+   let = comprimento = prompt("Digite o valor do comprimento do terreno");
+   let = area;
+
+   area = (Number (largura) * (comprimento))
+   if (area<=100){
+           alert("Terreno popular")
+   }
+   else if(area>100 && area <=500){
+           alert("Terreno Master")
+   }
+   else{
+           alert("Terreno Vip")
+   }*/
+   
+ /* let = hora =prompt("Digite o valor de horas");
+ let = pontos
+  let = dinheiro 
+  
+ if(hora<= 10){
+        pontos=Number(hora)*2
+ }
+else if(hora > 10 && hora<=20){
+        pontos =Number(hora)*5
+}
+else{pontos =Number(hora)*10}
+dinheiro = (pontos)* 
+*/
+         
+let sal = number (prompt ("Digite salário"));
+let genero = number (prompt ("Digite o gênero");
+let temp = number (prompt ("Digite o tempo de empresa");
+let novosalario;
+
+if(genero== "f"){
+ if( Number(temp) < 15){
+        novosalário = (sal)*0.05;
+}else if(temp = 15 && temp <=20){
+        novosalario= (sal)*
+}else{
+        novosalario= (sal)*1.23
+}
+if(genero== "m"){
+        if( Number(temp) < 15){
+               novosalário = (sal)*0.05;
+       }else if(temp = 15 && temp <=0.12;){
+               novosalario =(sal)
