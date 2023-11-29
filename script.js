@@ -112,21 +112,80 @@ else{pontos =Number(hora)*10}
 dinheiro = (pontos)* 
 */
          
-let sal = number (prompt ("Digite salário"));
-let genero = number (prompt ("Digite o gênero");
-let temp = number (prompt ("Digite o tempo de empresa");
+/*let sal = (prompt ("Digite salário"))
+let genero = (prompt ("Digite o gênero"))
+let temp = (prompt ("Digite o tempo de empresa"))
 let novosalario;
 
-if(genero== "f"){
- if( Number(temp) < 15){
-        novosalário = (sal)*0.05;
-}else if(temp = 15 && temp <=20){
-        novosalario= (sal)*
-}else{
-        novosalario= (sal)*1.23
-}
-if(genero== "m"){
-        if( Number(temp) < 15){
-               novosalário = (sal)*0.05;
-       }else if(temp = 15 && temp <=0.12;){
-               novosalario =(sal)
+if (gen == "m"){
+        if(Number(temp <20))
+        novosalario = Number(sal) *0.03;
+        else if(temp =20 && temp < =30){
+                novosalario = Number(sal) *0.13
+        else{
+                novosalario = Number(sal) *0.25
+                
+                if(gen =="f"){
+                        if(Number(temp <15))
+                        novosalario = Number (sal) *0.05;
+                        else if(temp = 15 && temp <=20){
+                                novosalario = Number(sal) *0.12
+                                else{
+                                        novosalario = Number(sal) *0.23
+                alert("novo salário é : + novo salário");*/
+
+/*let peso =prompt("digite o peso")
+let alt =prompt("Digite a altura")
+let imc = peso / alt **2
+ if(imc< 18.5){
+         alert("abaixo do peso")
+ }else if(imc >= 18.5 && imc <25){
+        alert("peso ideal")   
+ } else if(imc >25&& imc <=30){
+         alert("sobrepeso")
+ }else if (imc >30 &&imc <40){
+         alert("obesidade")
+ }else {
+         alert("Obesidade mórbida")
+ }   */
+
+ function mostrarTabuada(){
+         // criar referência aos elementos da página
+         let inNumero = document.getElementById('inNumero');
+         let outtabuada = document.getElementById('outTabuada')
+ }
+         //converte conteudodo campo InNumero
+         let numero = Number(InNumero.value);
+         if (numero == 0 || isNaN(numero)){
+                alert("Informe um número válido");
+                InNumero.focus();
+         //criar uma variaveldo tipo srting,que irá concatenara resposta
+         let resposta = "";
+         //criar um laço de repertição
+ }              for (let i = 1; i <=10; i++) {
+         //a variavel resposta vai acumulando os novos conteúdos
+         resposta = resposta + numero + "x" + I +" = " + numero * i + "\n"
+         // \n é uma quebra de linha
+         // o conteudo da tag pre é alterado para exibira tabuada do num
+         outtabuada.textContent = resposta
+ }
+        //criar referência ao botão e após associa functionao eventocliclk
+       let btmostrar = document.getElementById('btMostrar');
+        btmostrar.addEventListener('click',mostrarTabuada);
+
+        //converter conteudo do campo innumero
+        let numero = Number(InNumero.valuer);
+         
+        //validar o numero
+
+                // cria uma váriavel do tipo string que irá concatenar a resposta 
+                let resposta = "";
+
+                // cria um laço de repetição
+                // i é o contador 
+                for (let i = 1; (index) < array.length; (index)++) {
+                        const element = array[(index)];
+                        
+                }
+        }
+                )
